@@ -1,0 +1,27 @@
+@import './fonts.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-image: $body-gradient;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 72px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #fff;
+}
